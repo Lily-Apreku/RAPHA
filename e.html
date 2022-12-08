@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo😎😎</title>
+    <style>
+        h1{
+            text-align: center;
+            color:aqua;
+        }
+        h1:hover{
+            color:brown
+        }
+        body{
+        
+            padding:3em 3em;
+            font-family:Verdana, Geneva , Tahoma, sans-serif
+            
+        } 
+        body:hover{
+            color: aqua;
+            background-color: grey;
+        }
+        button{
+         border-radius:70px;
+         margin:3cm;
+         padding:1em 1em;
+         border-color: aquamarine;
+         background-color: aquamarine;
+         font-family: 'Courier New', Courier, monospace;
+         cursor: pointer;
+        }
+        button:hover{
+            background: transparent;
+            color: orchid;
+            border-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Helloo I want Rapha to see that I am learning🥱🥱</h1>
+    <p> Hi, everyone 😁😁!One may wonder why i have such a heading🤣😂😂.
+        Its just that one day I was talking with Rapha and he said that ladies in Tech are not serious🤨🤨.
+        How can you tell me this story?I am sure that most of the guys think that way too,STOP oww!!!
+        Yes kindly stop!!!! Or else.....🤫.
+    </p>
+
+    <p>
+     Someone may ask who at all is this girl who is disturbing us like that ?Welll🙃🙃
+     I am Parach. Thank you ,yes i have a beautiful name just like my face.🙃🙃Yes I am fearfully and wonderfully made.
+     So yes beauty does not lie in the eyes of the beholder.I am beautiful because God made ,me so,therefore so I am🥰🥱.I am 
+     beautiful because,what God begets is Beautifully breath-taking🥱😎
+    </p>
+    <p>I am from a family of Nobles..We are Kings and Priest.👑🙇‍♀️.To know more about Us,kindly click on this button.</p>
+
+    <center><button>Elyons World</button></center>
+
+
+
+
+
+    <script>
+        function partOfUS(){
+            let name=prompt("What is your name");
+            let seek=prompt("what seekest thou?");
+          
+
+            if (seek==="GOD"){
+                alert("You are at the right place" + " " + name);
+
+            }
+            
+            else{
+                alert("Please find your Priority and come back👋👋");
+            }
+        }
+
+
+          partOfUS()
+
+          function houseHold(){
+
+            let name=prompt("What is your name");
+            let generation=prompt("Are you of the Elyon ?");
+
+            if (generation==="Elyons"){
+                let h1 =document.querySelector("h1");
+          h1.innerHTML="Hi," +" "+ name +" Welcome! Home !";
+            
+
+            }
+            else{
+                let h1 =document.querySelector("h1");
+                h1.innerHTML="You do not belong here!!!!";
+
+            
+            }
+          }
+        
+          let contactButton = document.querySelector("button");
+
+
+       contactButton.addEventListener("click",houseHold);
+
+    </script>
+</body>
+</html>
